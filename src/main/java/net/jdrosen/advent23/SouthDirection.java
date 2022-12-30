@@ -23,4 +23,9 @@ public class SouthDirection implements Direction {
         return(newElfPosition);
     }
     
+    @Override 
+    public String toString() {
+        return("SOUTH");
+    }
+
 }

@@ -6,4 +6,6 @@ public interface Direction {
 
     ElfPosition proposedMovementInThisDirection(Elf me);
 
+    String toString();
+
 }

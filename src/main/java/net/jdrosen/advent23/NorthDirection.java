@@ -22,5 +22,10 @@ public class NorthDirection implements Direction {
 
         return(newElfPosition);
     }
+
+    @Override 
+    public String toString() {
+        return("NORTH");
+    }
     
 }
